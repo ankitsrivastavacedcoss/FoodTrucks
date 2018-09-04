@@ -52,7 +52,7 @@ def index():
 # add a new hello route
 @app.route('/hello')
 def hello():
-  return "hello world!"
+  return "Hello Pepe!"
 
 @app.route('/debug')
 def test_es():
